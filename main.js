@@ -24,6 +24,8 @@ function sectionMarker(section) {
 }
 
 function showNavOnScroll() {
+  const navigation = document.querySelector('#navigation');
+
   if (scrollY >= 55) {
     navigation.classList.add('scroll')
   } else {
